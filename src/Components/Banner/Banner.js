@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons';
+import Banner_img from '../../Assets/banner.png';
 import  './Banner.css';
 
 const Banner = () => {
@@ -18,6 +19,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
+                <div className="banner_img" style={{backgroundImage: `url(${Banner_img})`}}></div>
             </section>
         </div>
     );

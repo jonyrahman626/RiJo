@@ -1,6 +1,6 @@
 #banner_part {
     background: #00001F;
-    padding: 305px 0 192px;
+    padding: 305px 0 152px;
 }
 
 .banner_text h1 {
@@ -9,7 +9,6 @@
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     line-height: 86px;
-    position: relative;
     padding-bottom: 50px;
 }
 
@@ -20,9 +19,10 @@
 
 .banner_text h1 i {
     font-weight: 700;
+    position: relative;
 }
 
-.banner_text h1:after {
+.banner_text h1 i:after {
     position: absolute;
     content: '';
     left: 50%;
@@ -79,11 +79,6 @@
 
 .banner_text a i svg{
     margin-left: 20px;
-    transform: scale(0);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -107,10 +102,13 @@
     -o-transform: scale(1);
 }
 
-.banner_text a:hover  i svg{
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
+
+.banner_img{
+    height: 785px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
