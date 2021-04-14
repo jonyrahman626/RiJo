@@ -1,4 +1,5 @@
 import React from 'react';
+import WorkMobile from '../../Assets/work_mobile.png';
 import './Work.css';
 
 const Work = () => {
@@ -19,7 +20,9 @@ const Work = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 pr-0">
-
+                                <div className="line_shape">
+                                    <div className="box_shape"></div>
+                                </div>
                             </div>
                             <div className="col-lg-5 pl-0">
                                 <div className="work_text">
@@ -35,7 +38,16 @@ const Work = () => {
                                     <p>Mindmap and long term vision is so important for a successful product. We research on it finding the problem the competition also the long-term solution.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-4 offset-lg-2"></div>
+                            <div className="col-lg-4 offset-lg-2 mobile_main">
+                                <div className="work_mobile">
+                                    <img src={WorkMobile} alt=""/>
+                                    <div className="overly">
+                                        <h5>Enhance Productivity</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p>
+                                        <a href="#">Continue</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
