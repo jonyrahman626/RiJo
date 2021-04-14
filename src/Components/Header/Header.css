@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+.main_menu{
+    height: 80px;
+    background: #f1f1f1;
+}
+
+.main_menu .navbar-nav a{
+    color: #8FEBD5 !important;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.main_menu .navbar-brand {
+	color: #222;
+	font-size: 30px;
+	font-weight: 400;
+	background: #8FEBD5;
+	line-height: 80px;
+	padding: 0 20px;
+	border-radius: 0 40px;
+	-webkit-border-radius: 0 40px;
+	-moz-border-radius: 0 40px;
+	-ms-border-radius: 0 40px;
+	-o-border-radius: 0 40px;
+    font-family: 'Faster One', cursive;
+}
